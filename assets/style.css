@@ -29,16 +29,17 @@ body{
     align-items: center;
 }
 
-.logo{
-    width: 40px;
-    cursor: pointer;
-    border-bottom: 2px solid black;
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    margin-left: 15px;
 }
 
 .menu-icon{
-    width: 30px;
+    width: 70px;
     cursor: pointer;
     margin-left: 40px;
+    border-radius: 10px;
 }
 
 nav{
@@ -59,8 +60,8 @@ nav ul li a{
 }
 
 .row{
-    display: flex;
-    height: 88%;
+    display:list-item;
+    height: 50%;
     align-items: center;
 }
 
@@ -82,21 +83,8 @@ p{
 
 }
 
-.explore-btn{
-    width: 180px;
-    color: rgb(255, 255, 255);
-    font-size: 12px;
-    padding: 12px 0;
-    background: rgb(80, 80, 80);
-    border: 0;
-    border-radius: 20px;
-    outline: none;
-    margin-top: 30px;
-    margin-left: 60px;
-}
-
 .card{
-    width: 200px;
+    width: 33%;
     height: 230px;
     display: inline-block;
     border-radius: 10px;
@@ -109,7 +97,9 @@ p{
 }
 
 .card1{
-    background-image: url(./pexels-johannes-plenio-1632788.jpg);
+    width: 100%;
+    height: 300px;
+    background-image: url(./Screen\ Shot\ 2022-05-03\ at\ 3.43.16\ PM.png);
 }
 
 .card2{
@@ -144,6 +134,8 @@ h5{
     flex-wrap: wrap;
     background-color:rgb(235, 230, 230);
     padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 .about-me-header{
@@ -177,6 +169,7 @@ h5{
     border: 1px solid black;
     padding: 1rem;
     border-radius: 10px;
+    background: rgb(235, 230, 230);
 }
 
 .project a{
